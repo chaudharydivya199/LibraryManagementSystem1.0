@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1589537675 source:c:\users\dante\desktop\librarymanagementsystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<stdlib.h>
+	"helper_functions.h"
+	"login_credentials.h"
+
+1589519050 c:\users\dante\desktop\librarymanagementsystem\helper_functions.h
+
+1589536563 c:\users\dante\desktop\librarymanagementsystem\login_credentials.h
+

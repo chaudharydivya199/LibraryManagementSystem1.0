@@ -12,3 +12,19 @@
 
 1589536563 c:\users\dante\desktop\librarymanagementsystem\login_credentials.h
 
+1589545907 source:c:\users\dell\desktop\lms\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<stdlib.h>
+	"helper_functions.h"
+	"login_credentials.h"
+	"Main_menu.h"
+
+1589541540 c:\users\dell\desktop\lms\helper_functions.h
+
+1589546239 c:\users\dell\desktop\lms\login_credentials.h
+
+1589545508 c:\users\dell\desktop\lms\main_menu.h
+

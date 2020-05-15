@@ -4,15 +4,18 @@
 #include <string.h>
 #include <stdlib.h>
 
+
 #include "helper_functions.h"
 #include "login_credentials.h"
+#include "Main_menu.h"
 
 
 /* First screen of the program */
 int wrong_menu_flag = 0;
 
-int main_menu(){
-
+int main_screen()
+{
+  system("COLOR 60");
     char enter;
 
     system("cls");
@@ -55,7 +58,7 @@ int main_menu(){
 
         else{
             wrong_menu_flag = 1;
-            main_menu();
+            main_screen();
 
 
         }
@@ -73,6 +76,7 @@ int main_menu(){
 int main()
 {
     // waiting screen
+
     printf("WAIT! Make sure the screen is full ");
     Sleep(1000);
     printf("!");
@@ -81,6 +85,8 @@ int main()
     Sleep(1000);
     printf("!");
 
+    main_screen();
+    system("cls");
     main_menu();
 
     return 0;

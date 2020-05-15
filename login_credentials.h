@@ -43,6 +43,8 @@ int userId(void){
             wrong_id_flag = 0;
         }
 
+        system("COLOR 90");
+
         printf("ENTER LOGIN ID: ");
         scanf("%s", user_id);
 
